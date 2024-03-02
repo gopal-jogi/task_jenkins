@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("GIT") {
             steps {
-               "https://github.com/gopal-jogi/task_jenkins.git"
+               git "https://github.com/gopal-jogi/task_jenkins.git"
             }
         }
         stage("Run") {
